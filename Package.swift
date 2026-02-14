@@ -25,11 +25,18 @@ let package = Package(
       targets: ["InMobiAdapterTarget", "InMobi-iOS-SDK"]
     )
   ],
+  dependencies: [
+    .package(
+      url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
+      from: "12.0.0"
+    )
+  ],
   targets: [
     .target(
       name: "InMobiAdapterTarget",
       dependencies: [
         .target(name: "InMobiAdapter"),
+        .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
       ],
       path: "InMobiAdapterTarget"
     ),
