@@ -18,7 +18,7 @@ import PackageDescription
 
 let package = Package(
   name: "InMobiAdapter",
-  platforms: [.iOS(.v12)],
+  platforms: [.iOS(.v13)],
   products: [
     .library(
       name: "InMobiAdapterTarget",
@@ -28,7 +28,7 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
-      from: "12.0.0"
+      from: "13.0.0"
     )
   ],
   targets: [
@@ -43,14 +43,14 @@ let package = Package(
     .binaryTarget(
       name: "InMobiAdapter",
       url:
-        "https://dl.google.com/googleadmobadssdk/mediation/ios/inmobi/InMobiAdapter-10.8.6.0.zip",
-      checksum: "3dcd1c6b2bc8ab0267642d3e9cc64be6f1cb8b353b64742effd56211d26d0450"
+        "https://dl.google.com/googleadmobadssdk/mediation/ios/inmobi/InMobiAdapter-11.1.1.1.zip",
+      checksum: "d615a72cd358087be7de0dfd53fd10369d65ac4f79890f0b33401915b077ff8e"
     ),
     .binaryTarget(
       name: "InMobi-iOS-SDK",
       url:
-        "https://dl.inmobi.com/inmobi-sdk/IM/InMobi-iOS-SDK-10.8.6.zip",
-      checksum: "ab0f05cd8aa0a7b1085a2b4f57f06ba27ae5dc310e1d9c1241011bba6ba98949"
+        "https://dl.inmobi.com/inmobi-sdk/IM/InMobi-iOS-SDK-11.1.1.zip",
+      checksum: "578dd32285cc8cea05e04ef3ffd03ccf0c93bc010d1e3abbed28690fe0dfffb2"
     ),
   ]
 )
