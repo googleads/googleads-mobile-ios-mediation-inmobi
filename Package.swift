@@ -43,7 +43,7 @@ let package = Package(
     .binaryTarget(
       name: "InMobiAdapter",
       url:
-        "https://dl.google.com/googleadmobadssdk/mediation/ios/inmobi/InMobiAdapter-11.2.0.0.zip",
+        "https://dl.google.com/googleadmobadssdk/mediation/ios/inmobi/InMobiAdapter-11.2.0.1.zip",
       checksum: "19b61187bda0ec3705e394f7cbb5e81f30a7077d6dc41733555f669063ebd987"
     ),
     .binaryTarget(
