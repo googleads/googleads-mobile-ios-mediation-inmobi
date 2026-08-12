@@ -49,7 +49,7 @@ let package = Package(
       name: "InMobiAdapter",
       url:
         "https://dl.google.com/googleadmobadssdk/mediation/ios/inmobi/InMobiAdapter-11.4.1.0.zip",
-      checksum: "3454d8bb92fc75c2eb5391d461c693b2b02ef4a5c9b645e6297d0fa7cc0e9af2"
+      checksum: "a6f4373caaa3e3277cf634dce6589369321b135c957fe779f83c07b9051abd72"
     ),
   ]
 )
