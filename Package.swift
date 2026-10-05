@@ -28,7 +28,7 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/InMobi/InMobiSDK-Swift-Package.git",
-      exact: "11.4.1"
+      exact: "11.5.0"
     ),
     .package(
       url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
@@ -48,7 +48,7 @@ let package = Package(
     .binaryTarget(
       name: "InMobiAdapter",
       url:
-        "https://dl.google.com/googleadmobadssdk/mediation/ios/inmobi/InMobiAdapter-11.4.1.0.zip",
+        "https://dl.google.com/googleadmobadssdk/mediation/ios/inmobi/InMobiAdapter-11.5.0.0.zip",
       checksum: "a6f4373caaa3e3277cf634dce6589369321b135c957fe779f83c07b9051abd72"
     ),
   ]
